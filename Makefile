@@ -1,12 +1,11 @@
-SRCS = $(sort $(wildcard *.md))
+SRCS = $(sort $(wildcard content/*.md))
 METADATA = metadata.yaml
 CSS = epub.css
 
 BOOK = book.epub
 
 CC = pandoc
-CFLAGS = --from=markdown --to=epub
-# --toc --toc-depth=2
+CFLAGS = --from=markdown --to=epub --toc --toc-depth=2
 
 all: $(BOOK)
 
@@ -17,4 +16,3 @@ $(BOOK): $(METADATA) $(SRCS) $(CSS)
 
 clean:
 	rm -f $(BOOK)
-

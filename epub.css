@@ -1,5 +1,5 @@
 /* default pandoc - https://github.com/jgm/pandoc/blob/master/data/epub.css */
-body { margin: 5%; text-align: justify; font-size: medium; }
+body { margin: 5%; font-size: medium; }
 code { font-family: monospace; }
 h1 { text-align: left; }
 h2 { text-align: left; }
