@@ -1,8 +1,29 @@
 ---
-title: My Book
-author: My Name
-date: YYYY-MM-DD
-rights: Creative Commons Zero
-stylesheet: epub.css
+# See this for all fields and descriptions
+# https://pandoc.org/MANUAL.html#epub-metadata
+title:
+  - type: main
+    text: <TITLE>
+  # - type: subtitle
+  #   text: <SUBTITLE>
+creator:
+  - role: author
+    text: <NAME>
+  # - role: editor
+  #   text: <NAME>
+# description: <DESCRIPTION OF YOUR BOOK.>
+# cover-image: <COVER-IMAGE-FILE>
+date: YYYY-MM-DD # "-MM-DD" is optional
+# lang: en
+# rights: <COPYRIGHT NOTICE>
+css: epub.css
+# belongs-to-collection: <COLLECTION-NAME>
+# group-position: <NUMBER-IN-COLLECTION>
+# page-progression-direction: <`ltr` OR `rtl`>
+# identifier:
+#   - scheme: UUID
+#     text: 7f3cfa67-882f-4340-a895-211dc3361a09
+#   - scheme: ISBN-13
+#     text: 978-3-16-148410-0
 ...
 

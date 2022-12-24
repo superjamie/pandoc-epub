@@ -16,3 +16,4 @@ $(BOOK): $(METADATA) $(SRCS) $(CSS)
 
 clean:
 	rm -f $(BOOK)
+
